@@ -93,22 +93,22 @@ const bgg = fs.readFileSync('./stik/fake.jpeg')
 //// Image ////
 const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
     if (time2 < "23:59:00") {
-      var ucapanWaktu = "Selamat Malam🌃";
+      var ucapanWaktu = "Selamat MalamðŸŒƒ";
     }
     if (time2 < "19:00:00") {
-      var ucapanWaktu = "Selamat senja🌞";
+      var ucapanWaktu = "Selamat senjaðŸŒž";
     }
     if (time2 < "18:00:00") {
-      var ucapanWaktu = "Selamat sore🌄";
+      var ucapanWaktu = "Selamat soreðŸŒ„";
     }
     if (time2 < "15:00:00") {
-      var ucapanWaktu = "Selamat siang☀️";
+      var ucapanWaktu = "Selamat siangâ˜€ï¸";
     }
     if (time2 < "11:00:00") {
-      var ucapanWaktu = "Selamat pagi🌅";
+      var ucapanWaktu = "Selamat pagiðŸŒ…";
     }
     if (time2 < "05:00:00") {
-      var ucapanWaktu = "Selamat malam🌃";
+      var ucapanWaktu = "Selamat malamðŸŒƒ";
     }
     // ubah yg ada nomor gw:v , sama nama
 banChats = true;
@@ -120,14 +120,14 @@ readPc = false;
 autovn = false;
 autoketik = false;
 prefixStatus = true;
-targetpc = "6285721599053";
-owner = "6285721599053";
-fakeyoi = "RIFKI BOTX";
+targetpc = "6283869803330";
+owner = "6285706735450";
+fakeyoi = "VERDI 25";
 HunterApi = "Ikyy69",
 valkey = "rivalgans",
 dapapi = "itsmevall",
-nomorowner1 = "6285721599053";
-fake = `RIFKIBOTX\n ${ucapanWaktu} Kak🐤 \n🔖Prefix :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
+nomorowner1 = "6285706735450";
+fake = `VERDIX\n ${ucapanWaktu} KakðŸ¤ \nðŸ”–Prefix :ã€Œ ${prefixStatus ? "Multi Prefix" : "No Prefix"} ã€`;
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
 waktu = "-";
@@ -288,7 +288,7 @@ await itsmevall.updatePresence(from, Presence.composing)
     // const isSelfNumber = config.NomorSELF
     // const isOwner = sender.id === isSelfNumber
     const totalchat = await itsmevall.chats.all();
-    const ownerNumber = [`6285721599053@s.whatsapp.net`]
+    const ownerNumber = [`6285706735450@s.whatsapp.net`]
     const m = simple.smsg(itsmevall, mek);
     const groupMetadata = isGroup ? await itsmevall.groupMetadata(from) : "";
     const groupName = isGroup ? groupMetadata.subject : "";
@@ -311,7 +311,7 @@ await itsmevall.updatePresence(from, Presence.composing)
     const pushname = mek.key.fromMe
       ? itsmevall.user.name
       : conts.notify || conts.vname || conts.name || "-";
-    const readmore = "͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏";
+    const readmore = "ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ";
     if (prefix && command) cmdadd();
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
@@ -340,7 +340,7 @@ await itsmevall.updatePresence(from, Presence.composing)
      
     //MESS
     mess = {
-      wait: "🔖 Sedang Di Proses",
+      wait: "ðŸ”– Sedang Di Proses",
       success: "Berhasil!",
       wrongFormat: "Format salah, coba liat lagi di menu",
       error: {
@@ -673,7 +673,7 @@ itsmevall.on('CB:action,,battery', json => {
         );
       });
     };
-//******************* 》banchat《 ********************\\
+//******************* ã€‹banchatã€Š ********************\\
 if (isBanchat){
 if (!itsMe && !isOwner)return 
 }
@@ -690,8 +690,8 @@ if (!itsMe && !isOwner)return
               mimetype: "image/jpeg",
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
-            title: "Bang RIFKI", //Kasih namalu
-            description: "RIFKI BOT",
+            title: "Bang verdu", //Kasih namalu
+            description: "VERDI 25",
             currencyCode: "USD",
             priceAmount1000: "2000",
             retailerId: "ItsMeVall",
@@ -825,7 +825,7 @@ const listmsg = (from, title, desc, list) => { // Fixx
       itsmevall.groupAdd(from, orangnya);
     };
         const grupinv = (teks) => {
-        	grup = itsmevall.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Argio Dev`, "footerText": "*_© Dcode Denpa_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
+        	grup = itsmevall.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Argio Dev`, "footerText": "*_Â© Dcode Denpa_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
             itsmevall.relayWAMessage(grup)
         }
 const fakeitem = (teks) => {
@@ -851,7 +851,7 @@ itsmevall.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-                "title": `Whatsapp-BOT\nRIFKI (RIFKI_WANDI_APRIYAN) •Instagram photos and Videos`,
+                "title": `Whatsapp-BOT\nRIFKI (RIFKI_WANDI_APRIYAN) â€¢Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
                 "thumbnailUrl": "https://a.top4top.io/p_2073icief0.jpg",
@@ -866,12 +866,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/6285721599053`,
+                "body": `wa.me/6285706735450`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/6285721599053`,
+                "mediaUrl": `wa.me/6285706735450`,
                 "thumbnailUrl": "https://j.top4top.io/p_20682m4yj0.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/6285721599053`,
+                "sourceUrl": `wa.me/6285706735450`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 function _0x23f0(){const _0xb751aa=['https://i.ibb.co/tZnDbJt/ba64a75d6689.jpg','5378196SaDwil','537918aztXIm','readFileSync','9EjBtBZ','104470aAeKBR','https://youtu.be/uygjD8rqVLE','5cDZJJo','20379lPcRuW','./stik/thumb.jpeg','sendMessage','44PReDXE','hallo\x20','8pgbmZm','240929GbKExl','11TGLAJt','1420349MLJTFP','2512074oFCnxW'];_0x23f0=function(){return _0xb751aa;};return _0x23f0();}(function(_0x1e55a3,_0x56e726){const _0xdc492=_0x3b80,_0x3f050a=_0x1e55a3();while(!![]){try{const _0x615a03=-parseInt(_0xdc492(0x1ea))/0x1+-parseInt(_0xdc492(0x1f0))/0x2+parseInt(_0xdc492(0x1e4))/0x3*(parseInt(_0xdc492(0x1e7))/0x4)+-parseInt(_0xdc492(0x1f5))/0x5*(-parseInt(_0xdc492(0x1ed))/0x6)+-parseInt(_0xdc492(0x1ec))/0x7*(parseInt(_0xdc492(0x1e9))/0x8)+-parseInt(_0xdc492(0x1f2))/0x9*(parseInt(_0xdc492(0x1f3))/0xa)+-parseInt(_0xdc492(0x1eb))/0xb*(-parseInt(_0xdc492(0x1ef))/0xc);if(_0x615a03===_0x56e726)break;else _0x3f050a['push'](_0x3f050a['shift']());}catch(_0x2290c1){_0x3f050a['push'](_0x3f050a['shift']());}}}(_0x23f0,0x354e7));function _0x3b80(_0x185291,_0x399c5e){const _0x23f087=_0x23f0();return _0x3b80=function(_0x3b80a1,_0x38fc9b){_0x3b80a1=_0x3b80a1-0x1e4;let _0x322fe2=_0x23f087[_0x3b80a1];return _0x322fe2;},_0x3b80(_0x185291,_0x399c5e);}const fakeyt=_0x5773fb=>{const _0x5831e4=_0x3b80;itsmevall[_0x5831e4(0x1e6)](from,_0x5773fb,text,{'contextInfo':{'text':'hi','forwardingScore':0x3b9aca00,'isForwarded':![],'sendEphemeral':![],'externalAdReply':{'title':_0x5831e4(0x1e8)+pushname,'body':''+ucapanWaktu,'mediaType':'2','thumbnailUrl':_0x5831e4(0x1ee),'mediaUrl':_0x5831e4(0x1f4),'thumbnail':fs[_0x5831e4(0x1f1)](_0x5831e4(0x1e5)),'sourceUrl':''},'mentionedJid':[sender]},'quoted':fgif});};
@@ -1037,7 +1037,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         } else {
           vote.push({
             participant: id_vote,
-            voting: "✅",
+            voting: "âœ…",
           });
           fs.writeFileSync(`./lib/${from}.json`, JSON.stringify(vote));
           let _p = [];
@@ -1069,7 +1069,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         } else {
           vote.push({
             participant: id_vote,
-            voting: "❌",
+            voting: "âŒ",
           });
           fs.writeFileSync(`./lib/${from}.json`, JSON.stringify(vote));
           let _p = [];
@@ -1194,15 +1194,15 @@ case 'menu':
 
                buttonsMessage = {
                contentText: `${txtt}`,
-               footerText: `© Creator ${fakeyoi}
-々Special Thx  To 々
+               footerText: `Â© Creator ${fakeyoi}
+ã€…Special Thx  To ã€…
  - RIFKI BOTX
  - Yogipw
  - Hexagonz
  - Aldi Fauzi
  - Senku
  - ItsMevall
- - All Creator Bot✨`, imageMessage: imageMsg,
+ - All Creator Botâœ¨`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1211,187 +1211,187 @@ prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: 
               
                break
       case 'rifkibotx':
-        var menu = `                   *Hai Kack*✨    `;
+        var menu = `                   *Hai Kack*âœ¨    `;
         sendButVideo(from, menu, `${ucapanWaktu} ${pushname}
 
-⦿ Jam : ${jam}
-⦿ Hari : ${week} ${weton}
-⦿ Tanggal : ${date}
+â¦¿ Jam : ${jam}
+â¦¿ Hari : ${week} ${weton}
+â¦¿ Tanggal : ${date}
 ${readmore}
 
-*OWNER々*
-🔖${prefix}off
-🔖${prefix}isbaileys
-🔖${prefix}banchat
-🔖${prefix}unbanchat
-🔖${prefix}listbc
-🔖${prefix}antidelete on|off
-🔖${prefix}autoketik on| off
-🔖${prefix}autoread gc on / gc off
-🔖${prefix}autovn on / off
-🔖${prefix}antical on | off
-🔖${prefix}getcaption
-🔖${prefix}on
-🔖${prefix}status
-🔖${prefix}setthumb
-🔖${prefix}settarget
-🔖${prefix}setfakeimg
-🔖${prefix}setreply
-🔖${prefix}bugpc2
-🔖${prefix}bugpc
-🔖${prefix}bugcombine
-🔖${prefix}buglokasi
-🔖${prefix}bug [jumlah]
-🔖${prefix}hacked
-🔖${prefix}setprefix [2 Button]
-🔖${prefix}mode [2 Button self/public]
-🔖${prefix}term <code>
-🔖${prefix}eval <code>
-🔖${prefix}colongsw [reply sw]
+*OWNERã€…*
+ðŸ”–${prefix}off
+ðŸ”–${prefix}isbaileys
+ðŸ”–${prefix}banchat
+ðŸ”–${prefix}unbanchat
+ðŸ”–${prefix}listbc
+ðŸ”–${prefix}antidelete on|off
+ðŸ”–${prefix}autoketik on| off
+ðŸ”–${prefix}autoread gc on / gc off
+ðŸ”–${prefix}autovn on / off
+ðŸ”–${prefix}antical on | off
+ðŸ”–${prefix}getcaption
+ðŸ”–${prefix}on
+ðŸ”–${prefix}status
+ðŸ”–${prefix}setthumb
+ðŸ”–${prefix}settarget
+ðŸ”–${prefix}setfakeimg
+ðŸ”–${prefix}setreply
+ðŸ”–${prefix}bugpc2
+ðŸ”–${prefix}bugpc
+ðŸ”–${prefix}bugcombine
+ðŸ”–${prefix}buglokasi
+ðŸ”–${prefix}bug [jumlah]
+ðŸ”–${prefix}hacked
+ðŸ”–${prefix}setprefix [2 Button]
+ðŸ”–${prefix}mode [2 Button self/public]
+ðŸ”–${prefix}term <code>
+ðŸ”–${prefix}eval <code>
+ðŸ”–${prefix}colongsw [reply sw]
     
-*GRUP々*
-🔖${prefix}grup [3 Button]
-🔖${prefix}promote <reply chat member>
-🔖${prefix}demote <reply chat member>
-🔖${prefix}setdesc
-🔖${prefix}setname
-🔖${prefix}kick <reply/tag member>
-🔖${prefix}add <reply/tag member>
-🔖${prefix}getbio <reply chat member>
-🔖${prefix}getname <reply chat member>
-🔖${prefix}reminder <msg/2s>
-🔖${prefix}listonline
-🔖${prefix}sider [reply chat bot]
-🔖${prefix}antilink
-🔖${prefix}tod 
-🔖${prefix}tospam jumlah
-🔖${prefix}antihidetag
-🔖${prefix}antiviewonce
-🔖${prefix}autojoin
-🔖${prefix}antivirtex
-🔖${prefix}kickarea
+*GRUPã€…*
+ðŸ”–${prefix}grup [3 Button]
+ðŸ”–${prefix}promote <reply chat member>
+ðŸ”–${prefix}demote <reply chat member>
+ðŸ”–${prefix}setdesc
+ðŸ”–${prefix}setname
+ðŸ”–${prefix}kick <reply/tag member>
+ðŸ”–${prefix}add <reply/tag member>
+ðŸ”–${prefix}getbio <reply chat member>
+ðŸ”–${prefix}getname <reply chat member>
+ðŸ”–${prefix}reminder <msg/2s>
+ðŸ”–${prefix}listonline
+ðŸ”–${prefix}sider [reply chat bot]
+ðŸ”–${prefix}antilink
+ðŸ”–${prefix}tod 
+ðŸ”–${prefix}tospam jumlah
+ðŸ”–${prefix}antihidetag
+ðŸ”–${prefix}antiviewonce
+ðŸ”–${prefix}autojoin
+ðŸ”–${prefix}antivirtex
+ðŸ”–${prefix}kickarea
     
-*MAKER々*
-🔖${prefix}sticker
-🔖${prefix}swm <author|packname>
-🔖${prefix}take <author|packname>
-🔖${prefix}fdeface
-🔖${prefix}attp teks
-🔖${prefix}fancytext teks
-🔖${prefix}emoji
-🔖${prefix}halloween teks
-🔖${prefix}vampire teks
-🔖${prefix}codetxt teks
-🔖${prefix}matrix teks
-🔖${prefix}googletxt teks
-🔖${prefix}spiderman teks
-🔖${prefix}express
-🔖${prefix}teks teks
-🔖${prefix}dance
-🔖${prefix}nulis teks
-🔖${prefix}text3d teks
-🔖${prefix}warrior teks
+*MAKERã€…*
+ðŸ”–${prefix}sticker
+ðŸ”–${prefix}swm <author|packname>
+ðŸ”–${prefix}take <author|packname>
+ðŸ”–${prefix}fdeface
+ðŸ”–${prefix}attp teks
+ðŸ”–${prefix}fancytext teks
+ðŸ”–${prefix}emoji
+ðŸ”–${prefix}halloween teks
+ðŸ”–${prefix}vampire teks
+ðŸ”–${prefix}codetxt teks
+ðŸ”–${prefix}matrix teks
+ðŸ”–${prefix}googletxt teks
+ðŸ”–${prefix}spiderman teks
+ðŸ”–${prefix}express
+ðŸ”–${prefix}teks teks
+ðŸ”–${prefix}dance
+ðŸ”–${prefix}nulis teks
+ðŸ”–${prefix}text3d teks
+ðŸ”–${prefix}warrior teks
 
-*CONVERT々*
-🔖${prefix}toimg
-🔖${prefix}tomp3
-🔖${prefix}tomp4
-🔖${prefix}slow
-🔖${prefix}fast
-🔖${prefix}reverse
-🔖${prefix}tourl
+*CONVERTã€…*
+ðŸ”–${prefix}toimg
+ðŸ”–${prefix}tomp3
+ðŸ”–${prefix}tomp4
+ðŸ”–${prefix}slow
+ðŸ”–${prefix}fast
+ðŸ”–${prefix}reverse
+ðŸ”–${prefix}tourl
     
-*DOWNLOADER々*
-🔖${prefix}tiktok <url>
-🔖${prefix}ytmp4 <url>
-🔖${prefix}play <url>
-🔖${prefix}ytmp3 <url>
-🔖${prefix}instagram <url>
-🔖${prefix}twitter <url>
+*DOWNLOADERã€…*
+ðŸ”–${prefix}tiktok <url>
+ðŸ”–${prefix}ytmp4 <url>
+ðŸ”–${prefix}play <url>
+ðŸ”–${prefix}ytmp3 <url>
+ðŸ”–${prefix}instagram <url>
+ðŸ”–${prefix}twitter <url>
 
-*UP STORY々*
-🔖${prefix}upswteks
-🔖${prefix}upswimage
-🔖${prefix}upswvideo
+*UP STORYã€…*
+ðŸ”–${prefix}upswteks
+ðŸ”–${prefix}upswimage
+ðŸ”–${prefix}upswvideo
     
-*FUN々*
-🔖${prefix}fitnah
-🔖${prefix}fitnahpc
-🔖${prefix}kontak
-🔖${prefix}asupan
-🔖${prefix}viewonce
-🔖${prefix}detikvn number
-🔖${prefix}detikvideo number
-🔖${prefix}hbd [ 2006 04 05 ]
+*FUNã€…*
+ðŸ”–${prefix}fitnah
+ðŸ”–${prefix}fitnahpc
+ðŸ”–${prefix}kontak
+ðŸ”–${prefix}asupan
+ðŸ”–${prefix}viewonce
+ðŸ”–${prefix}detikvn number
+ðŸ”–${prefix}detikvideo number
+ðŸ”–${prefix}hbd [ 2006 04 05 ]
     
-*TAG々*
-🔖${prefix}hidetag
-🔖${prefix}kontag
-🔖${prefix}sticktag
-🔖${prefix}totag
+*TAGã€…*
+ðŸ”–${prefix}hidetag
+ðŸ”–${prefix}kontag
+ðŸ”–${prefix}sticktag
+ðŸ”–${prefix}totag
     
-*OTHER々*
-🔖${prefix}ping
-🔖${prefix}inspect
-🔖${prefix}join
-🔖${prefix}dadu
-🔖${prefix}bilangangka number
-🔖${prefix}kalkulator
-🔖${prefix}pantun
-🔖${prefix}ss link web
-🔖${prefix}liriklagu <query>
-🔖${prefix}artinama <name>
-🔖${prefix}debug
-🔖${prefix}loli 
-🔖${prefix}debug2
-🔖${prefix}infogempa
-🔖${prefix}resepmasakan
-🔖${prefix}chat 62|P
-🔖${prefix}caripesan <query>
-🔖${prefix}get url
-🔖${prefix}githubstalk <query>
-🔖${prefix}ytsearch <query>
-🔖${prefix}igstalk <query>
-🔖${prefix}tiktokstalk <query>
-🔖${prefix}play <query>
-🔖${prefix}video <query>
-🔖${prefix}igstory <username>
-🔖${prefix}twitter <link>
-🔖${prefix}tiktok <link>
-🔖${prefix}tiktokaudio <link>
-🔖${prefix}fb <link>
-🔖${prefix}brainly <query>
-🔖${prefix}image <query>
-🔖${prefix}anime <random>
-🔖${prefix}pinterest <query>
-🔖${prefix}komiku <query>
-🔖${prefix}lirik <query>
-🔖${prefix}chara <query>
-🔖${prefix}playstore <query>
-🔖${prefix}otaku <query>
+*OTHERã€…*
+ðŸ”–${prefix}ping
+ðŸ”–${prefix}inspect
+ðŸ”–${prefix}join
+ðŸ”–${prefix}dadu
+ðŸ”–${prefix}bilangangka number
+ðŸ”–${prefix}kalkulator
+ðŸ”–${prefix}pantun
+ðŸ”–${prefix}ss link web
+ðŸ”–${prefix}liriklagu <query>
+ðŸ”–${prefix}artinama <name>
+ðŸ”–${prefix}debug
+ðŸ”–${prefix}loli 
+ðŸ”–${prefix}debug2
+ðŸ”–${prefix}infogempa
+ðŸ”–${prefix}resepmasakan
+ðŸ”–${prefix}chat 62|P
+ðŸ”–${prefix}caripesan <query>
+ðŸ”–${prefix}get url
+ðŸ”–${prefix}githubstalk <query>
+ðŸ”–${prefix}ytsearch <query>
+ðŸ”–${prefix}igstalk <query>
+ðŸ”–${prefix}tiktokstalk <query>
+ðŸ”–${prefix}play <query>
+ðŸ”–${prefix}video <query>
+ðŸ”–${prefix}igstory <username>
+ðŸ”–${prefix}twitter <link>
+ðŸ”–${prefix}tiktok <link>
+ðŸ”–${prefix}tiktokaudio <link>
+ðŸ”–${prefix}fb <link>
+ðŸ”–${prefix}brainly <query>
+ðŸ”–${prefix}image <query>
+ðŸ”–${prefix}anime <random>
+ðŸ”–${prefix}pinterest <query>
+ðŸ”–${prefix}komiku <query>
+ðŸ”–${prefix}lirik <query>
+ðŸ”–${prefix}chara <query>
+ðŸ”–${prefix}playstore <query>
+ðŸ”–${prefix}otaku <query>
     
-*JADI BOT々*
-🔖${prefix}jadibot
-🔖${prefix}stopjadibot
-🔖${prefix}listbot
+*JADI BOTã€…*
+ðŸ”–${prefix}jadibot
+ðŸ”–${prefix}stopjadibot
+ðŸ”–${prefix}listbot
 
-*STICKER CMD々*
-🔖${prefix}addcmd
-🔖${prefix}delcmd
-🔖${prefix}listcmd
+*STICKER CMDã€…*
+ðŸ”–${prefix}addcmd
+ðŸ”–${prefix}delcmd
+ðŸ”–${prefix}listcmd
     
-*VOTE々*
-🔖${prefix}voting
-🔖${prefix}delvote
+*VOTEã€…*
+ðŸ”–${prefix}voting
+ðŸ”–${prefix}delvote
  vote
  devote
     
- *々INFO BOT々*
-🔖Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
-🔖Runtime : ${runtime(process.uptime())}
-🔖Hit Today : ${hit_today.length} Hit
-🔖Total Hit : ${totalhit} Hit
-🔖Total Chat : ${totalchat.length} Chat`, thumb, [
+ *ã€…INFO BOTã€…*
+ðŸ”–Prefix : ã€Œ ${prefixStatus ? "Multi Prefix" : "No Prefix"} ã€
+ðŸ”–Runtime : ${runtime(process.uptime())}
+ðŸ”–Hit Today : ${hit_today.length} Hit
+ðŸ”–Total Hit : ${totalhit} Hit
+ðŸ”–Total Chat : ${totalchat.length} Chat`, thumb, [
           {
             buttonId: `${prefix}rifkibotx`,
             buttonText: {
@@ -1402,7 +1402,7 @@ ${readmore}
           {
             buttonId: `${prefix}owner`,
             buttonText: {
-              displayText: `OWNER🐱`,
+              displayText: `OWNERðŸ±`,
             },
             type: 1,
           },
@@ -1439,7 +1439,7 @@ katalog('ASSALAMUALAIKUM BANG')
         break
 case 'auu': // by itsmevall
        reply('Enggak Kak')
-        sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Mau Jawab Apa?`, [
+        sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Mau Jawab Apa?`, [
           {
             buttonId: `${prefix}oklah`,
             buttonText: {
@@ -1478,7 +1478,7 @@ case 'auu': // by itsmevall
 case 'sc':
 case 'sourcecode':
               reply('```List Source```')
-              sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Mau List Source Yang Mana?`, [
+              sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Mau List Source Yang Mana?`, [
               {
             buttonId: `${prefix}sourceyt`,
             buttonText: {
@@ -1505,7 +1505,7 @@ case 'sourcecode':
 case 'store':
 case 'storemenu':
               reply('```List Store```')
-              sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Mau Top Up?`, [
+              sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Mau Top Up?`, [
               {
             buttonId: `${prefix}70dm`,
             buttonText: {
@@ -1531,7 +1531,7 @@ case 'storemenu':
         break
 case 'listdm':
  reply('Bang Mau Top Up')
- sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Mau Top Up?`, [
+ sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Mau Top Up?`, [
                           {
             buttonId: `${prefix}pay1`,
             buttonText: {
@@ -1557,7 +1557,7 @@ case 'listdm':
         break
         case 'mygithub':
               katalog('Nyari Apa Bang?')
-              sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Silahkan Pilih!`, [
+              sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Silahkan Pilih!`, [
               {
             buttonId: `${prefix}sc`,
             buttonText: {
@@ -1568,11 +1568,11 @@ case 'listdm':
         ]);
         break
         case 'thanksto':
-              katalog('*SPESIAL THANKS TO*\n\n*  Allah SWT*\n* Orang Tua Saya*\n* RIFKIBOTX*\n* Taufik Ganz*\n*  Itsme Vall*\n*  YogiPw*\n*  Aldi Fauzi*\n*  Senku*\n*  Marcel Ganz*\n*  Hexagonz*\n*  Penyedia Module Dan Api*\n*  And All My Friends*')
+              katalog('*SPESIAL THANKS TO*\n\n*  Allah SWT*\n* Orang Tua Saya*\n* RIFKIBOTX*\n* verdi Ganz*\n*  Itsme Vall*\n*  YogiPw*\n*  Aldi Fauzi*\n*  Senku*\n*  Marcel Ganz*\n*  Hexagonz*\n*  Penyedia Module Dan Api*\n*  Taufik*')
         break
         case 'pay':
               reply('```Pilih Disini```')
-              sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Silahkan Pilih!`, [
+              sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Silahkan Pilih!`, [
               {
             buttonId: `${prefix}dana`,
             buttonText: {
@@ -1599,16 +1599,16 @@ case 'sourceyt':
 reply('*https://youtube.com/c/RIFKI01GAMINGLOVERS*')
 break
 case 'sourcegt':
-reply('*https://github.com/RIFKIBOTZ*')
+reply('*https://github.com/VERDIBOTZ1*')
 haibg =`Hai Kak ${pushname}\nItu Sourcenya, Mau Tanya Tanya?`
                buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: 'MY OWNER'},type:1},{buttonId:`${prefix}iggw`,buttonText:{displayText:'INSTAGRAM'},type:1}]
-               buttonsMessage = { contentText: `${haibg}`, footerText: 'Kalo Mau Di Sv Chat Aja Kak🗿 Jangan sungkan chat yah🥰', buttons: buttons, headerType: 1 }
+               buttonsMessage = { contentText: `${haibg}`, footerText: 'Kalo Mau Di Sv Chat Aja KakðŸ—¿ Jangan sungkan chat yahðŸ¥°', buttons: buttons, headerType: 1 }
                prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{})
                itsmevall.relayWAMessage(prep)
 break
 case 'order':
 reply('``` FORMAT ORDER\n NICK : \n ID/SERVER :\n JUMLAH TOP UP :\n SISA DM :\n PAYMENT :```')
-              sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Silahkan Pilih!`, [
+              sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Silahkan Pilih!`, [
               {
             buttonId: `${prefix}store`,
             buttonText: {
@@ -1627,7 +1627,7 @@ reply('``` FORMAT ORDER\n NICK : \n ID/SERVER :\n JUMLAH TOP UP :\n SISA DM
         break
 case 'gk':
 reply('```Wah Ngajak Gelut```')
-              sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Silahkan Pilih!`, [
+              sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Silahkan Pilih!`, [
               {
             buttonId: `${prefix}gakmau`,
             buttonText: {
@@ -1654,9 +1654,9 @@ case 'sewa':
 menu = `*[!] OPEN SEWA BOT*
 | -------------------------------------------
 | *Harga Sewa MINGGUAN*
-| 1 minggu : Rp 2.000 
-| 2 minggu : Rp 4.000
-| 3 minggu : Rp 6.000
+| 1 minggu : Rp 1.000 
+| 2 minggu : Rp 3.000
+| 3 minggu : Rp 5.000
 | -------------------------------------------
           | *Harga Sewa BULANAN*
           | 12 Bulan : Rp. 15.000
@@ -1773,10 +1773,10 @@ itsmevall.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { me
                listmsg(from, `${ucapanWaktu}`, `Hai kak ${pushname}, Pilih Menu List Disini`, list)               
 break
         case 'gopay':
-              reply('*No Gopay: 085721599053 A/N RIFKI PEDIA STORE*')
+              reply('*No Gopay: 085706735450 A/N VERDI STORE*')
               break
         case 'dana':
-              reply('*No Dana: 085721599053 A/N WIWIN WINANGSIH*')
+              reply('*No Dana: 085706735450 A/N VERDI STORE*')
               break
 case 'pay1':
         case '0':
@@ -1802,17 +1802,17 @@ reply(`${mek.quoted.caption}`)
 }
 break
 case 'iggw':
-  reply('https://instagram.com/rifki_wandi_apriyan')
+  reply('https://instagram.com/VERDI_STORE')
 break
       /*case "owner":
-        sendKontak(from, owner, "RIFKI BOTX", "Sibuk");*/
+        sendKontak(from, owner, "VERDI", "Sibuk");*/
 case 'owner':
            case 'creator':
                sendKontak(from, `${owner}`, `${fakeyoi}`, 'Sibukk!!')
                await sleep(1000)
                haibg =`Hai Kak ${pushname}\nItu Ownerku, Mau tau soal apa ya?`
                buttons = [{buttonId: `${prefix}mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`${prefix}iggw`,buttonText:{displayText:'INSTAGRAM'},type:1}]
-               buttonsMessage = { contentText: `${haibg}`, footerText: 'Kalo Mau Di Sv Chat Aja Kak🗿 Jangan sungkan chat yah🥰', buttons: buttons, headerType: 1 }
+               buttonsMessage = { contentText: `${haibg}`, footerText: 'Kalo Mau Di Sv Chat Aja KakðŸ—¿ Jangan sungkan chat yahðŸ¥°', buttons: buttons, headerType: 1 }
                prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{})
                itsmevall.relayWAMessage(prep)
                break      
@@ -1864,11 +1864,11 @@ break
         fakestatus("Done!");
         break;
       case "listcmd":
-        teksnyee = `\`\`\`「 LIST STICKER CMD 」\`\`\``;
+        teksnyee = `\`\`\`ã€Œ LIST STICKER CMD ã€\`\`\``;
         cemde = [];
         for (let i of _scommand) {
           cemde.push(i.id);
-          teksnyee += `\n\n➸ *ID :* ${i.id}\n➸ *Cmd* : ${i.chats}`;
+          teksnyee += `\n\nâž¸ *ID :* ${i.id}\nâž¸ *Cmd* : ${i.chats}`;
         }
         mentions(teksnyee, cemde, true);
         break;
@@ -2091,7 +2091,7 @@ reply(`Succes mematikan autoread pc`)
 reply(`Pilih on atau off`)
 }
 } else {
-reply(`*List Auto Read*\n•> gc\n•> pc`)
+reply(`*List Auto Read*\nâ€¢> gc\nâ€¢> pc`)
 }
 break
       case "autojoin":
@@ -2205,9 +2205,9 @@ break
           ];
           itsmevall.reply(
             m.chat,
-            "┌─〔 Daftar Online �\n" +
-              online.map((v) => "├ @" + v.replace(/@.+/, "")).join`\n` +
-              "\n└────",
+            "â”Œâ”€ã€” Daftar Online ã€\n" +
+              online.map((v) => "â”œ @" + v.replace(/@.+/, "")).join`\n` +
+              "\nâ””â”€â”€â”€â”€",
             m,
             {
               contextInfo: { mentionedJid: online },
@@ -2338,7 +2338,7 @@ ${members > 1 ? `${members - reads.length - deliveries.length} tersisa` : ""}
         buffergbl = await getBuffer(ppUrl);
         itsmevall.sendMessage(from, buffergbl, image, {
           quoted: mek,
-          caption: `\`\`\`「 Group Info 」\`\`\`\n*•> Name* : ${groupName}\n*•> Member* : ${groupMembers.length}\n*•> Admin* : ${groupAdmins.length}\n*•> Description* : \n${groupDesc}`,
+          caption: `\`\`\`ã€Œ Group Info ã€\`\`\`\n*â€¢> Name* : ${groupName}\n*â€¢> Member* : ${groupMembers.length}\n*â€¢> Admin* : ${groupAdmins.length}\n*â€¢> Description* : \n${groupDesc}`,
         });
         break;
       // Demote Admins
@@ -2471,15 +2471,15 @@ if (Number(oi2) >= 50) return reply('Kebanyakan!')
         if (!isQuotedImage && !isQuotedSticker && !isQuotedAudio) {
           await itsmevall.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Text
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Text
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -2489,11 +2489,11 @@ Reminder berhasil diaktifkan!
               anu = await reminder.getReminderMsg(sender, _reminder);
               itsmevall.sendMessage(
                 from,
-                `── 「 REMINDER 」 ──
+                `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`,
                 text,
                 { contextInfo: { mentionedJid: [sender] } }
               );
@@ -2514,15 +2514,15 @@ Reminder berhasil diaktifkan!
           media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
           await itsmevall.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Sticker
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Sticker
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -2532,11 +2532,11 @@ Reminder berhasil diaktifkan!
               anu = await reminder.getReminderMsg(sender, _reminder);
               itsmevall.sendMessage(
                 from,
-                `── 「 REMINDER 」 ──
+                `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`,
                 text,
                 { contextInfo: { mentionedJid: [sender] } }
               );
@@ -2560,15 +2560,15 @@ Reminder berhasil diaktifkan!
           media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
           await itsmevall.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Image
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Image
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -2576,11 +2576,11 @@ Reminder berhasil diaktifkan!
           const intervRemind = setInterval(async () => {
             if (Date.now() >= reminder.getReminderTime(sender, _reminder)) {
               anu = await reminder.getReminderMsg(sender, _reminder);
-              teks = `── 「 REMINDER 」 ──
+              teks = `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`;
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`;
               itsmevall.sendMessage(from, media, image, {
                 contextInfo: { mentionedJid: [sender] },
                 caption: teks,
@@ -2602,15 +2602,15 @@ Reminder berhasil diaktifkan!
           media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
           await itsmevall.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Audio
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Audio
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -2620,11 +2620,11 @@ Reminder berhasil diaktifkan!
               anu = await reminder.getReminderMsg(sender, _reminder);
               itsmevall.sendMessage(
                 from,
-                `── 「 REMINDER 」 ──
+                `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`,
                 text,
                 { contextInfo: { mentionedJid: [sender] } }
               );
@@ -2669,7 +2669,7 @@ case 'mygithub2':
 					break
 case 'harta':
   reply(mess.wait)
-  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/chartatahta?text=${args[0]}&apikey=${HunterApi}`, `Ni 🗿`)
+  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/chartatahta?text=${args[0]}&apikey=${HunterApi}`, `Ni ðŸ—¿`)
   break
  case '+62':
 reply(mess.wait)
@@ -2773,7 +2773,7 @@ reply('Sukses send bug sebanyak '+args.join(' '))
         stopjadibot(reply);
         break;
       case "listbot":
-        let tekss = "「 *LIST JADIBOT* 」\n";
+        let tekss = "ã€Œ *LIST JADIBOT* ã€\n";
         for (let i of listjadibot) {
           tekss += `*Nomor* : ${i.jid.split("@")[0]}
 *Nama* : ${i.name}
@@ -2940,7 +2940,7 @@ const ageD = new Date(d - date)
 const age = ageD.getFullYear() - new Date(1970, 0, 1).getFullYear()
 
 const birthday = [tahun + (birth[1] < bulan), ...birth.slice(1)]
-const cekusia = bulan === birth[1] && tanggal === birth[2] ? `Happy -${age}th Birthday 🥳🎉` : age
+const cekusia = bulan === birth[1] && tanggal === birth[2] ? `Happy -${age}th Birthday ðŸ¥³ðŸŽ‰` : age
 
 const teksh = `
 Birth : ${birth.join('-')}
@@ -2955,7 +2955,7 @@ break
 			 res = await itsmevall.prepareMessageFromContent(from,{
 "templateMessage": {
 						"hydratedTemplate": {
-							"hydratedContentText": `Hi ${pushname} 👋,\n\n${jam} - ${week} ${weton} - ${date}`,
+							"hydratedContentText": `Hi ${pushname} ðŸ‘‹,\n\n${jam} - ${week} ${weton} - ${date}`,
 							"hydratedFooterText": `${fakeyoi}`,
 							"hydratedButtons": [
 								{
@@ -3002,7 +3002,7 @@ case 'debug2':
     ]
   },
   "hydratedTemplate": {
-    "hydratedContentText": `Hi ${pushname} 👋,\n\n${jam} - ${week} ${weton} - ${date}`,
+    "hydratedContentText": `Hi ${pushname} ðŸ‘‹,\n\n${jam} - ${week} ${weton} - ${date}`,
     "hydratedFooterText": `${fakeyoi}`,
     "hydratedButtons": [
       {
@@ -3025,12 +3025,12 @@ break
             "listMessage" :{
               "title": `${ucapanWaktu} kak ${pushname}\n ini adalah bot Gw:v`,
               "description": `bot ini berjalan selama \n${runtime(process.uptime())}`,
-              "buttonText": "click here👈",
+              "buttonText": "click hereðŸ‘ˆ",
               /*"footerText": '@_ItsMeVall',
               "listType": "SINGLE_SELECT",
               "sections": [{
               "footerText": '@_ItsMeVall',
-                "title": `Prefix Bot :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`,
+                "title": `Prefix Bot :ã€Œ ${prefixStatus ? "Multi Prefix" : "No Prefix"} ã€`,
                 "rows": [{
                     "title": "+62",
                     "rowId": "0",
@@ -3070,18 +3070,18 @@ break
         ]);
         break;
 case "asupan": // by itsmevall
-        sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Silahkan pilih Asupannya Kak✨`, [
+        sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Silahkan pilih Asupannya Kakâœ¨`, [
           {
             buttonId: `${prefix}+62`,
             buttonText: {
-              displayText: `🔖 Asupan +62`,
+              displayText: `ðŸ”– Asupan +62`,
             },
             type: 1,
           },
           {
             buttonId: `${prefix}ghea`,
             buttonText: {
-              displayText: `🔖 Asupan Ghea`,
+              displayText: `ðŸ”– Asupan Ghea`,
             },
             type: 1,
           },
@@ -3095,18 +3095,18 @@ case "asupan": // by itsmevall
         ]);
         break;
 case "asupan2": // by itsmevall
-        sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Silahkan pilih Asupannya V.2 kak✨`, [
+        sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Silahkan pilih Asupannya V.2 kakâœ¨`, [
           {
             buttonId: `${prefix}santuy`,
             buttonText: {
-              displayText: `🔖 Asupan Santuy`,
+              displayText: `ðŸ”– Asupan Santuy`,
             },
             type: 1,
           },
           {
             buttonId: `${prefix}bocil`,
             buttonText: {
-              displayText: `🔖 Asupan Bocil`,
+              displayText: `ðŸ”– Asupan Bocil`,
             },
             type: 1,
           },
@@ -3120,25 +3120,25 @@ case "asupan2": // by itsmevall
         ]);
         break;
 case "asupan3": // by itsmevall
-        sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Silahkan pilih Asupannya V.3 kak✨`, [
+        sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Silahkan pilih Asupannya V.3 kakâœ¨`, [
           {
             buttonId: `${prefix}rikagusriani`,
             buttonText: {
-              displayText: `🔖 Asupan Rikagusriani`,
+              displayText: `ðŸ”– Asupan Rikagusriani`,
             },
             type: 1,
           },
           {
             buttonId: `${prefix}ukhti`,
             buttonText: {
-              displayText: `🔖 Asupan Ukhti`,
+              displayText: `ðŸ”– Asupan Ukhti`,
             },
             type: 1,
           },
           {
             buttonId: `${prefix}mygithub`,
             buttonText: {
-              displayText: `Follow Kak Github Saya😄`,
+              displayText: `Follow Kak Github SayaðŸ˜„`,
             },
             type: 1,
           },
@@ -3185,7 +3185,7 @@ case "asupan3": // by itsmevall
         var a = bv.result.media_metadata;
         sendButImage(
           from,
-          `⚜️ *Nickname*: ${b.username}\n❤️ *Like*: ${a.stats.diggCount}\n💬 *Komentar*: ${a.stats.commentCount}\n🔁 *Share*: ${a.stats.shareCount}\n🎞️ *Views*: ${a.stats.playCount}`,
+          `âšœï¸ *Nickname*: ${b.username}\nâ¤ï¸ *Like*: ${a.stats.diggCount}\nðŸ’¬ *Komentar*: ${a.stats.commentCount}\nðŸ” *Share*: ${a.stats.shareCount}\nðŸŽžï¸ *Views*: ${a.stats.playCount}`,
           `Silahkan pilih salah satu format yg mau didownload`,
           tamnel,
           [
@@ -3312,7 +3312,7 @@ case "asupan3": // by itsmevall
               id.split("@")[0] +
               " Di Mulai" +
               "\n\n" +
-              `vote = ✅\ndevote = ❌\n\nAlasan: ${split[1]}`,
+              `vote = âœ…\ndevote = âŒ\n\nAlasan: ${split[1]}`,
             [id],
             true
           );
@@ -3322,7 +3322,7 @@ case "asupan3": // by itsmevall
       case "linkwa":
         if (!q) return reply("cari group apa?");
         hx.linkwa(q).then((result) => {
-          let res = "*「 _LINK WA_ 」*\n\n";
+          let res = "*ã€Œ _LINK WA_ ã€*\n\n";
           for (let i of result) {
             res += `*Nama*: *${i.nama}\n*Link*: ${i.link}\n\n`;
           }
@@ -3505,13 +3505,13 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
       case "playstore":
         if (!q) return reply("lu nyari apa?");
         let play = await hx.playstore(q);
-        let store = "❉─────────────────────❉\n";
+        let store = "â‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰\n";
         for (let i of play) {
-          store += `\n*「 _PLAY STORE_ 」*\n
+          store += `\n*ã€Œ _PLAY STORE_ ã€*\n
 - *Nama* : ${i.name}
 - *Link* : ${i.link}\n
 - *Dev* : ${i.developer}
-- *Link Dev* : ${i.link_dev}\n❉─────────────────────❉`;
+- *Link Dev* : ${i.link_dev}\nâ‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰`;
         }
         reply(store);
         break;
@@ -3967,9 +3967,9 @@ case 'waifu':
               let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
               let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
-		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'🐤OWNER'},type:1}]
+		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `âž¡ï¸Next`},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'ðŸ¤OWNER'},type:1}]
               imageMsg = ( await itsmevall.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak �', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak â˜', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               itsmevall.relayWAMessage(prep)
@@ -3990,7 +3990,7 @@ case 'attp':
 				if (args.length < 1) return reply('Judulnya?')
 				var teks = body.slice(14)
 				anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/resepmakanan?query=${teks}&apikey=${HunterApi}`, {method: 'get'})
-					hasilresep = `❏ *${anu.results.title}*\n\n❏ Porsi : ${anu.results.servings}\n❏ Waktu : ${anu.results.times}\n❏ Kesulitan : ${anu.results.dificulty}\n❏ Pengguna : ${anu.results.author.user}\n❏ Tanggal Diterbitkan : ${anu.results.author.datePublished}\n❏ Deskripsi : ${anu.results.desc}\n\n────────────────────\n❏ *Tutorial*\n\n❏ Bahan : ${anu.results.ingredient}\n❏ Langkah : ${anu.results.step}`
+					hasilresep = `â *${anu.results.title}*\n\nâ Porsi : ${anu.results.servings}\nâ Waktu : ${anu.results.times}\nâ Kesulitan : ${anu.results.dificulty}\nâ Pengguna : ${anu.results.author.user}\nâ Tanggal Diterbitkan : ${anu.results.author.datePublished}\nâ Deskripsi : ${anu.results.desc}\n\nâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€\nâ *Tutorial*\n\nâ Bahan : ${anu.results.ingredient}\nâ Langkah : ${anu.results.step}`
 					reply(mess.wait)
 					buff = await getBuffer(anu.results.thumb)
 					itsmevall.sendMessage(from, buff, image, {quoted: ftok, caption: hasilresep})
@@ -3999,14 +3999,14 @@ case 'attp':
 					if (args.length < 1) return reply('Usernamenya?')
 					var teks = body.slice(13)
 					anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/stalk/github?user=${teks}&apikey=${HunterApi}`, {method: 'get'})
-					gstalk = `❏ *GITHUB STALK*\n\n❏ Name : ${anu.result.name}\n❏ Followers : ${anu.result.followers}\n❏ Following : ${anu.result.following}\n❏ Id : ${anu.result.id}\n❏ Node Id : ${anu.result.node_id}\n❏ Type : ${anu.result.type}\n❏ Company : ${anu.result.company}\n❏ Location : ${anu.result.location}\n❏ Bio : ${anu.result.bio}\n❏ Site Admin : ${anu.result.site_admin}\n❏ Email : ${anu.result.email}\n❏ Created At : ${anu.result.created_at}\n❏ Updated At : ${anu.result.updated_at}\n❏ Twitter Username : ${anu.result.twitter_username}\n❏ Blog : ${anu.result.blog}\n❏ Avatar Url : ${anu.result.avatar_url}\n❏ Gravatar Id : ${anu.result.gravatar_id}\n❏ Html Url : ${anu.result.html_url}`
+					gstalk = `â *GITHUB STALK*\n\nâ Name : ${anu.result.name}\nâ Followers : ${anu.result.followers}\nâ Following : ${anu.result.following}\nâ Id : ${anu.result.id}\nâ Node Id : ${anu.result.node_id}\nâ Type : ${anu.result.type}\nâ Company : ${anu.result.company}\nâ Location : ${anu.result.location}\nâ Bio : ${anu.result.bio}\nâ Site Admin : ${anu.result.site_admin}\nâ Email : ${anu.result.email}\nâ Created At : ${anu.result.created_at}\nâ Updated At : ${anu.result.updated_at}\nâ Twitter Username : ${anu.result.twitter_username}\nâ Blog : ${anu.result.blog}\nâ Avatar Url : ${anu.result.avatar_url}\nâ Gravatar Id : ${anu.result.gravatar_id}\nâ Html Url : ${anu.result.html_url}`
 					reply(mess.wait)
 					buff = await getBuffer(anu.result.avatar_url)
 					itsmevall.sendMessage(from, buff, image, {quoted: ftok, caption: gstalk})
 					break 
 					case 'infogempa':
 					anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/info/gempa?apikey=${HunterApi}`, {method: 'get'})
-					gempa = `❏ *INFO GEMPA*\n\n❏ Waktu : ${anu.result.Waktu}\n❏ Lintang : ${anu.result.Lintang}\n❏ Bujur : ${anu.result.Bujur}\n❏ Magnitudo : ${anu.result.Magnitudo}\n❏ Kedalaman : ${anu.result.Kedalaman}\n❏ Wilayah : ${anu.result.Wilayah}`
+					gempa = `â *INFO GEMPA*\n\nâ Waktu : ${anu.result.Waktu}\nâ Lintang : ${anu.result.Lintang}\nâ Bujur : ${anu.result.Bujur}\nâ Magnitudo : ${anu.result.Magnitudo}\nâ Kedalaman : ${anu.result.Kedalaman}\nâ Wilayah : ${anu.result.Wilayah}`
 					reply(mess.wait)
 					buff = await getBuffer(anu.result.Map)
 					itsmevall.sendMessage(from, buff, image, {quoted: ftok, caption: gempa})
@@ -4240,7 +4240,7 @@ break
         if (banChats === false) return;
         // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
         banChats = false;
-        replyfakelink(`「 *PUBLIC-MODE* 」`);
+        replyfakelink(`ã€Œ *PUBLIC-MODE* ã€`);
         break;
       case "self":
         if (!mek.key.fromMe) return replyfakelink("SELF-BOT");
@@ -4248,13 +4248,13 @@ break
         uptime = process.uptime();
         // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
         banChats = true;
-        replyfakelink(`「 *SELF-MODE* 」`);
+        replyfakelink(`ã€Œ *SELF-MODE* ã€`);
         break;
       case "hidetag":
         if (!mek.key.fromMe) return replyfakelink("KHUSUS BOT SAJA");
         haibg =`Hai Kak ${pushname}\nLagi Main Hidetag Ya, Btw Mau tau soal apa ya?`
                buttons = [{buttonId: `${prefix}mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`${prefix}iggw`,buttonText:{displayText:'INSTAGRAM'},type:1}]
-               buttonsMessage = { contentText: `${haibg}`, footerText: 'Kalo Mau Di Sv Chat Aja Kak🗿 Jangan sungkan chat yah🥰', buttons: buttons, headerType: 1 }
+               buttonsMessage = { contentText: `${haibg}`, footerText: 'Kalo Mau Di Sv Chat Aja KakðŸ—¿ Jangan sungkan chat yahðŸ¥°', buttons: buttons, headerType: 1 }
                prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{})
                itsmevall.relayWAMessage(prep)
         if (!isGroup) return reply(mess.only.group);
@@ -4342,7 +4342,7 @@ break
         ) {
         	haibg =`Hai Kak ${pushname}\nNih Kak Sticker Nya, Mau tau soal apa ya?`
                buttons = [{buttonId: `${prefix}mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`${prefix}iggw`,buttonText:{displayText:'INSTAGRAM'},type:1}]
-               buttonsMessage = { contentText: `${haibg}`, footerText: 'Kalo Mau Di Sv Chat Aja Kak🗿 Jangan sungkan chat yah🥰', buttons: buttons, headerType: 1 }
+               buttonsMessage = { contentText: `${haibg}`, footerText: 'Kalo Mau Di Sv Chat Aja KakðŸ—¿ Jangan sungkan chat yahðŸ¥°', buttons: buttons, headerType: 1 }
                prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{})
                itsmevall.relayWAMessage(prep)
           const encmedia = isQuotedImage
@@ -4426,7 +4426,7 @@ break
         
         break;
       case "toimg":
-        if (!isQuotedSticker) return reply("𝗥𝗲𝗽𝗹𝘆/𝘁𝗮𝗴 𝘀𝘁𝗶𝗰𝗸𝗲𝗿 !");
+        if (!isQuotedSticker) return reply("ð—¥ð—²ð—½ð—¹ð˜†/ð˜ð—®ð—´ ð˜€ð˜ð—¶ð—°ð—¸ð—²ð—¿ !");
         replyfakelink(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
           .message.extendedTextMessage.contextInfo;
@@ -4456,16 +4456,16 @@ break
         aramat = aramas.all;
         var tbuff = await getBuffer(aramat[0].image);
         var ytresult = "";
-        ytresult += "「 *YOUTUBE SEARCH* 」";
+        ytresult += "ã€Œ *YOUTUBE SEARCH* ã€";
         ytresult += "\n________________________\n\n";
         aramas.all.map((video) => {
-          ytresult += "❏ Title: " + video.title + "\n";
-          ytresult += "❏ Link: " + video.url + "\n";
-          ytresult += "❏ Durasi: " + video.timestamp + "\n";
+          ytresult += "â Title: " + video.title + "\n";
+          ytresult += "â Link: " + video.url + "\n";
+          ytresult += "â Durasi: " + video.timestamp + "\n";
           ytresult +=
-            "❏ Upload: " + video.ago + "\n________________________\n\n";
+            "â Upload: " + video.ago + "\n________________________\n\n";
         });
-        ytresult += "◩ *SELF-BOT*";
+        ytresult += "â—© *SELF-BOT*";
         await fakethumb(tbuff, ytresult);
         break;
       case "setreply":
@@ -4603,9 +4603,9 @@ break
         if (args.length < 1) return reply("Pertanyaan apa");
         brien = args.join(" ");
         brainly(`${brien}`).then((res) => {
-          teks = "❉───────────────────────❉\n";
+          teks = "â‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰\n";
           for (let Y of res.data) {
-            teks += `\n*「 _BRAINLY_ 」*\n\n*➸ Pertanyaan:* ${Y.pertanyaan}\n\n*➸ Jawaban:* ${Y.jawaban[0].text}\n❉──────────────────❉\n`;
+            teks += `\n*ã€Œ _BRAINLY_ ã€*\n\n*âž¸ Pertanyaan:* ${Y.pertanyaan}\n\n*âž¸ Jawaban:* ${Y.jawaban[0].text}\nâ‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰\n`;
           }
           itsmevall.sendMessage(from, teks, text, {
             quoted: mek,
@@ -4910,7 +4910,7 @@ if (_chats.startsWith('$')){
 if (!isOwner)return// reply(`Perintah ini tidak bisa Di lakukan oleh Jadibot sementara`)
 if (!q)return 
 var itsme = `${sender}`
-var split = `*RIFKIBOTX-WeA*`
+var split = `*VERDIXC-WeA*`
 const term = {
 contextInfo: {
 participant: itsme,
@@ -4931,43 +4931,43 @@ itsmevall.sendMessage(from, stdout, text, term)
 
       default:
 		if (hour_now >= '02:00' && hour_now <= '04:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Waktunya sahur kak, Main botnya buat nanti lagi, Sebelum makan jangan lupa baca Doa ya kak', 'yellow'), color('(😊)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Waktunya sahur kak, Main botnya buat nanti lagi, Sebelum makan jangan lupa baca Doa ya kak', 'yellow'), color('(ðŸ˜Š)', 'white'))
           }
         if (hour_now >= '04:00' && hour_now <= '05:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi jam 5 nih kak, Jangan lupa sholat subuh ya kak', 'yellow'), color('(😊)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi jam 5 nih kak, Jangan lupa sholat subuh ya kak', 'yellow'), color('(ðŸ˜Š)', 'white'))
           }
           if (hour_now >= '05:00' && hour_now <= '06:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Udah sholat Subuh belum kak', 'yellow'), color('(🙄)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Udah sholat Subuh belum kak', 'yellow'), color('(ðŸ™„)', 'white'))
           }
         if (hour_now >= '06:00' && hour_now <= '11:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Pagi kak, Jangan lupa mandi', 'yellow'), color('(😅)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Pagi kak, Jangan lupa mandi', 'yellow'), color('(ðŸ˜…)', 'white'))
           }
           if (hour_now >= '11:00' && hour_now <= '12:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Siang kak, Dah mandi blm kak?', 'yellow'), color('(🙄)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Siang kak, Dah mandi blm kak?', 'yellow'), color('(ðŸ™„)', 'white'))
           }
           if (hour_now >= '12:00' && hour_now <= '14:00') {
-           console.log(color('[Pesan Bot]', 'cyan'), color('Dah jam 12 kak, Jangan lupa sholat Dzuhur ya kak', 'yellow'), color('(😊)', 'white'))
+           console.log(color('[Pesan Bot]', 'cyan'), color('Dah jam 12 kak, Jangan lupa sholat Dzuhur ya kak', 'yellow'), color('(ðŸ˜Š)', 'white'))
            }
         if (hour_now >= '14:00' && hour_now <= '15:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Sore kak, Jangan lupa mandi', 'yellow'), color('(😅)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Sore kak, Jangan lupa mandi', 'yellow'), color('(ðŸ˜…)', 'white'))
           }
         if (hour_now >= '15:00' && hour_now <= '16:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Dah jam 3 kak, Jangan lupa sholat Ashar ya kak', 'yellow'), color('(😊)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Dah jam 3 kak, Jangan lupa sholat Ashar ya kak', 'yellow'), color('(ðŸ˜Š)', 'white'))
           }
         if (hour_now >= '17:00' && hour_now <= '18:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi buka kak, Sabar ya kak', 'yellow'), color('(😆)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi buka kak, Sabar ya kak', 'yellow'), color('(ðŸ˜†)', 'white'))
           }
         if (hour_now >= '18:00' && hour_now <= '19:00') {
-        	console.log(color('[Pesan Bot]', 'cyan'), color('Alhamdulillah, Dah buka kak, Puasanya dibatalin dulu kak, Sebelum makan jangan lupa baca doa kak, Setelah makan langsung sholat Maghrib ya kak', 'yellow'), color('(😊)', 'white'))
+        	console.log(color('[Pesan Bot]', 'cyan'), color('Alhamdulillah, Dah buka kak, Puasanya dibatalin dulu kak, Sebelum makan jangan lupa baca doa kak, Setelah makan langsung sholat Maghrib ya kak', 'yellow'), color('(ðŸ˜Š)', 'white'))
         }
         if (hour_now >= '19:00' && hour_now <= '20:00') {
-           console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi jam 8 kak, Yok kak main botnya buat nanti lagi, Sekarang siap-siap dulu buat Sholat Tarawih', 'yellow'), color('(😊)', 'white'))
+           console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi jam 8 kak, Yok kak main botnya buat nanti lagi, Sekarang siap-siap dulu buat Sholat Tarawih', 'yellow'), color('(ðŸ˜Š)', 'white'))
            }
         if (hour_now >= '20:00' && hour_now <= '00:00') {
-           console.log(color('[Pesan Bot]', 'cyan'), color('Selamat malam kak, Jangan begadang ya kak, Tar sakit loh', 'yellow'), color('(😄)', 'white'))
+           console.log(color('[Pesan Bot]', 'cyan'), color('Selamat malam kak, Jangan begadang ya kak, Tar sakit loh', 'yellow'), color('(ðŸ˜„)', 'white'))
         }
           if (hour_now >= '00:00' && hour_now <= '02:00') {
-           console.log(color('[Pesan Bot]', 'cyan'), color('ManikBot ngantuk kak, tidur dulu ya kak', 'yellow'), color('(😴)', 'white'))
+           console.log(color('[Pesan Bot]', 'cyan'), color('ManikBot ngantuk kak, tidur dulu ya kak', 'yellow'), color('(ðŸ˜´)', 'white'))
         }
 
      if (!mek.key.fromMe) return;
@@ -4990,7 +4990,7 @@ itsmevall.sendMessage(from, stdout, text, term)
     } else {
       console.log(
         color("[SELF-MODE]", "red"),
-        "Self Bot By RIFKI WANDI",
+        "Self Bot By verdi",
         color(sender.split("@")[0])
       );
     }
@@ -5002,4 +5002,4 @@ itsmevall.sendMessage(from, stdout, text, term)
     // console.log(e)
   }
 };
-// Sekian Dari Gw Assamualaikum 🙂
+// Sekian Dari Gw Assamualaikum ðŸ™‚
